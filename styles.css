@@ -1,0 +1,84 @@
+body {
+    background-color: #7b6eaa;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.col-md-6 {
+    background-color: rgb(7, 7, 105);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    margin: 20px auto;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0d1b2a;
+    padding: 0.8rem 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar .nav-brand {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.navbar .nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .nav-menu a {
+    color: #8d99ae;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+input[type="checkbox"] {
+    width: auto;
+    padding: 0;
+    margin-right: 8px;
+    border: none;
+}
+
+input[type="checkbox"] + label {
+    display: inline-block;
+    margin: 0;
+    font-weight: normal;
+}
+
+input, select {
+    width: 100%;
+    padding: 16px;
+    border: 1px solid #d5b99b;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+#result {
+    white-space: pre-line;
+    margin-top: 10px;
+}
